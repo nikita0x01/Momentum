@@ -1,0 +1,147 @@
+/* Background setup */
+body {
+  background-color: #0e121b;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main Card Container */
+.main-container {
+  width: 700px;
+  min-height: 500px;
+  background: #1b2233;
+  border-radius: 25px;
+  padding: 30px 40px;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Header styling */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+header h2 {
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.today {
+  color: #a5abb5;
+  font-size: 16px;
+}
+
+/* Input area */
+.input-area {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.input-area input {
+  flex: 1;
+  padding: 14px 18px;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  background: #232b3d;
+  color: #fff;
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+.input-area button {
+  width: 48px;
+  height: 48px;
+  border: none;
+  border-radius: 50%;
+  background-color: #007bff;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.input-area button:hover {
+  background-color: #006ae6;
+}
+
+/* Task list */
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #2a3248;
+  padding: 14px 20px;
+  border-radius: 14px;
+  transition: 0.3s;
+}
+
+.task:hover {
+  background: #323c56;
+}
+
+.task p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.done {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+/* Past Activity Section */
+.past-section {
+  margin-top: 30px;
+}
+
+.past-section h3 {
+  color: #b0b6c2;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.past-task {
+  background: #242d43;
+  border-radius: 12px;
+  padding: 10px 16px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+}
+
+.past-task span {
+  padding: 4px 10px;
+  border-radius: 10px;
+  font-size: 13px;
+  color: #fff;
+}
+
+.success {
+  background-color: #2ecc71;
+}
+
+.missing {
+  background-color: #e74c3c;
+}
