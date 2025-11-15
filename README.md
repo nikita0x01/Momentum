@@ -1,10 +1,10 @@
-# 🌟 Momentum – A Smart To-Do & Productivity Board
+#  Momentum – A Smart To-Do & Productivity Board
 
 Momentum is a sleek and responsive **React.js** web application designed to boost productivity through visual task management. It allows users to organize their daily activities, track completed tasks, and stay motivated with a minimal, inspiring interface.
 
 ---
 
-## 💡 Overview
+##  Overview
 
 **Momentum** provides a simple yet powerful way to manage tasks throughout the day. Users can add, edit, and delete tasks; mark them as completed; and view their progress in a “Past Activities” section. The interface encourages focus and productivity with motivational messages and a clean, card-based layout inspired by Kanban boards.
 
@@ -12,18 +12,18 @@ Momentum is a sleek and responsive **React.js** web application designed to boos
 
 ---
 
-## ⚙️ Features
+##  Features
 
-- ✏️ **Task Management:** Add, edit, and delete tasks with ease.  
-- ✅ **Mark as Done:** Completed tasks automatically move to a “Past Activities” section.  
-- 🌈 **Motivational UI:** Simple and uplifting design with a central focus on productivity.  
-- 💻 **Responsive Layout:** Optimized for all screen sizes and centered desktop view.  
-- ⚡ **React Hooks:** Built using functional components and React’s `useState` hook.  
-- ☁️ **Live Deployment:** Deployed on **Render** for public access.  
+-  **Task Management:** Add, edit, and delete tasks with ease.  
+-  **Mark as Done:** Completed tasks automatically move to a “Past Activities” section.  
+-  **Motivational UI:** Simple and uplifting design with a central focus on productivity.  
+-  **Responsive Layout:** Optimized for all screen sizes and centered desktop view.  
+-  **React Hooks:** Built using functional components and React’s `useState` hook.  
+-  **Live Deployment:** Deployed on **Render** for public access.  
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Category | Technology |
 |-----------|-------------|
@@ -33,7 +33,7 @@ Momentum is a sleek and responsive **React.js** web application designed to boos
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 To run the project locally:
 
